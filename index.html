@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UBUD | kelompok 2</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./src/assets/css/bootstrap.min.css" />
+
+    <!-- Css Custom -->
+    <link rel="stylesheet" href="src/assets/custom/custom.css" />
+
+    <!-- Flicky -->
+    <link rel="stylesheet" href="plugin/flickity.min.css" />
+
+    <!-- AOS Animated -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Icon  -->
+    <link
+      rel="shortcut icon"
+      href="src/assets/images/header/u.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-md bg-info fixed-top z shadow-lg">
+      <div class="container">
+        <a class="navbar-brand img-fluid p-3" href="#"
+          ><img
+            class="img-fluid"
+            src="src/assets/images/header/logo.png"
+            alt="krisna satya"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto text-center">
+            <li class="nav-item ps-5">
+              <a class="nav-link" href="#">Discovery</a>
+            </li>
+            <li class="nav-item ps-5">
+              <a
+                class="nav-link"
+                href="https://www.tripadvisor.com/Tourism-g294226-Bali-Vacations.html"
+                >Booking</a
+              >
+            </li>
+            <li class="nav-item ps-5">
+              <a class="nav-link" href="#carousel">Wisata Ubud</a>
+            </li>
+            <li class="nav-item ps-5">
+              <a class="nav-link" href="https://en.wikipedia.org/wiki/Bali"
+                >kemBali</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Hero Section -->
+    <section
+      id="hero-section"
+      class="my-5 pt-2 pb-5 text-white position-relative"
+    >
+      <div
+        class="container w-100 hero pt-5 pb-3 d-md-flex justify-content-center align-items-center"
+      >
+        <div class="hero-left col-12 col-md-6">
+          <img
+            class="img-fuild w-100"
+            src="src/assets/images/header/hero-section.png"
+            alt=""
+          />
+        </div>
+        <div class="center col-md-1"></div>
+        <div class="hero-right text-md-start text-center col-md-5 mt-5">
+          <h1 class="fw-bolder pb-3">
+            Pandemi segera berakhir Ayo kem<span class="bali-text">Bali</span>
+            liburan di <span class="text-decoration-underline"> Ubud </span>
+          </h1>
+          <p>
+            Eksplorasi tempat wisata yang ada di Ubud, temukan tempat menarik
+            dan nyaman
+          </p>
+          <p class="fw-semibold pb-4">Dari Kelompok : 2</p>
+          <button
+            type="button"
+            class="btn btn-outline-warning border border-3 border-info btn-lg rounded-5 px-3"
+          >
+            <a class="d-inline text-decoration-none text-white" href="#map">
+              <span class="pe-4"
+                ><img src="src/assets/images/header/location.png" alt=""
+              /></span>
+              <span class="fs-6">Ubud Location</span>
+            </a>
+          </button>
+        </div>
+      </div>
+      <div class="hero-ornamen position-relative">
+        <div class="bunga-1 position-absolute">
+          <img
+            class="img-fluid"
+            src="src/assets/images/header/bunga.png"
+            alt=""
+          />
+        </div>
+        <div class="bunga-2 position-absolute">
+          <img
+            class="img-fluid"
+            src="src/assets/images/header/bunga.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- Start Mitra -->
+    <section id="mitra-section" class="w-100 d-none d-md-block">
+      <div class="container w-100">
+        <div class="mitra-judul pb-5">
+          <h3 class="text-center fw-bolder">Mitra Liburan</h3>
+          <span class="d-block text-center"
+            ><img src="src/assets/images/sponsor/garis.png" alt=""
+          /></span>
+        </div>
+        <div
+          class="mitra-wrap w-100 d-flex justify-content-between align-items-center"
+        >
+          <div class="mitra-1">
+            <img src="src/assets/images/sponsor/tiketdotcom.png" alt="" />
+          </div>
+          <div class="mitra-2">
+            <img src="src/assets/images/sponsor/traveloka.png" alt="" />
+          </div>
+          <div class="mitra-3">
+            <img src="src/assets/images/sponsor/pegi-pegi.png" alt="" />
+          </div>
+          <div class="mitra-4">
+            <img src="src/assets/images/sponsor/wi.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Mitra -->
+
+    <!-- STart Tentang Ubud -->
+    <section id="tentang-section" class="mt-5 pt-5">
+      <div class="container d-flex align-items-center mt-5 pt-5">
+        <div class="kiri col-6">
+          <div class="tentang-title text-center py-5">
+            <h2 class="fw-bolder">Sekilas Tentang Ubud</h2>
+          </div>
+          <div class="tentang-cards">
+            <div class="card-top d-flex">
+              <div
+                class="card card-1 w-100 d-flex flex-column justify-content-center align-items-center m-2"
+                data-aos="zoom-in"
+                data-aos-delay="400"
+              >
+                <div class="card-pp">
+                  <img
+                    class="img-fluid"
+                    src="src/assets/images/tentang/card-pp/nature.png"
+                    alt=""
+                  />
+                </div>
+                <p class="text-center p-2">
+                  Ubud merupakan kawasan pariwisata yang masih asri dan indah,
+                  dikelilingi oleh pemandangan hijau disepanjang jalan membuat
+                  kawasan ubud banyak diminati oleh wisatawan
+                </p>
+              </div>
+              <div
+                class="card card-2 w-100 p-3 d-flex flex-column justify-content-center align-items-center m-2"
+                data-aos="zoom-in"
+                data-aos-delay="600"
+              >
+                <div class="card-pp">
+                  <img
+                    class="img-fluid"
+                    src="src/assets/images/tentang/card-pp/eat.png"
+                    alt=""
+                  />
+                </div>
+                <p class="text-center p-2">
+                  Kuliner di Ubud menyediakan berbagai ragam jenis kuliner,
+                  mulai dari babi guling, ayam betutu, bebek betutu, lawar semua
+                  kuliner tersebut wajib dicoba
+                </p>
+              </div>
+            </div>
+            <div class="card-bottom d-flex">
+              <div
+                class="card card-3 w-100 d-flex flex-column justify-content-center align-items-center m-2"
+                data-aos="zoom-in"
+                data-aos-delay="800"
+              >
+                <div class="card-pp">
+                  <img
+                    class="img-fluid"
+                    src="src/assets/images/tentang/card-pp/reward.png"
+                    alt=""
+                  />
+                </div>
+                <p class="text-center p-2">
+                  Kawasan Ubud dinobatkan menjadi kota wisata ke-4 terbaik di
+                  dunia versi Travel+Leisure majalah wisata yang berbasis di New
+                  York
+                </p>
+              </div>
+              <div
+                class="card card-4 w-100 d-flex flex-column justify-content-center align-items-center m-2 p-3"
+                data-aos="zoom-in"
+                data-aos-delay="1000"
+              >
+                <div class="card-pp">
+                  <img
+                    class="img-fluid"
+                    src="src/assets/images/tentang/card-pp/location-blue.png"
+                    alt=""
+                  />
+                </div>
+                <p class="text-center p-2">
+                  Lokasi wisata di Ubud tidak terlalu jauh, untuk mencari satu
+                  tempat ke tempat lainnya begitu dekat
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tengah col-1"></div>
+        <div class="kanan col-5">
+          <img
+            class="img-fluid"
+            src="src/assets/images/tentang/tentang-img.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!-- End Tentang Ubud -->
+
+    <!-- Start Carausel Flicky  -->
+    <section id="carousel" class="carousel-class my-5 py-5">
+      <div class="carousel" data-flickity='{ "groupCells": true }'>
+        <div class="carousel-cell">
+          <div class="in-carousel d-flex justify-content-end align-items-start">
+            <button class="btn btn-carousel m-2 rounded-pill">
+              <span class="span-carousel d-inline-block">50k</span>
+            </button>
+          </div>
+          <div
+            class="btn btn-warning opacity-50 text-carousel d-flex justify-content-center mt-5 pt-3 text-warning fw-bolder"
+          >
+            <h3 class="text-white opacity-100">Ubud Monkey Forest</h3>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="in-carousel d-flex justify-content-end align-items-start">
+            <button class="btn btn-carousel m-2 rounded-pill">
+              <span class="span-carousel d-inline-block">25k</span>
+            </button>
+          </div>
+          <div
+            class="btn btn-warning opacity-50 text-carousel d-flex justify-content-center mt-5 pt-3 text-warning fw-bolder"
+          >
+            <h3 class="text-white opacity-100">Bukit Campuhan Ubud</h3>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="in-carousel d-flex justify-content-end align-items-start">
+            <button class="btn btn-carousel m-2 rounded-pill">
+              <span class="span-carousel d-inline-block">100k</span>
+            </button>
+          </div>
+          <div
+            class="btn btn-warning opacity-50 text-carousel d-flex justify-content-center mt-5 pt-3 text-warning fw-bolder"
+          >
+            <h3 class="text-white opacity-100">Pura Saraswati</h3>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="in-carousel d-flex justify-content-end align-items-start">
+            <button class="btn btn-carousel m-2 rounded-pill">
+              <span class="span-carousel d-inline-block">70k</span>
+            </button>
+          </div>
+          <div
+            class="btn btn-warning opacity-50 text-carousel d-flex justify-content-center mt-5 pt-3 text-warning fw-bolder"
+          >
+            <h3 class="text-white opacity-100">Aloha Ubud Swing</h3>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="in-carousel d-flex justify-content-end align-items-start">
+            <button class="btn btn-carousel m-2 rounded-pill">
+              <span class="span-carousel d-inline-block">1500k</span>
+            </button>
+          </div>
+          <div
+            class="btn btn-warning opacity-50 text-carousel d-flex justify-content-center mt-5 pt-3 text-warning fw-bolder"
+          >
+            <h3 class="text-white opacity-100">Aksari Resort Ubud</h3>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="in-carousel d-flex justify-content-end align-items-start">
+            <button class="btn btn-carousel m-2 rounded-pill">
+              <span class="span-carousel d-inline-block">Free</span>
+            </button>
+          </div>
+          <div
+            class="btn btn-warning opacity-50 text-carousel d-flex justify-content-center mt-5 pt-3 text-warning fw-bolder"
+          >
+            <h3 class="text-white opacity-100">Traditional Market Ubud</h3>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="in-carousel d-flex justify-content-end align-items-start">
+            <button class="btn btn-carousel m-2 rounded-pill">
+              <span class="span-carousel d-inline-block">20k</span>
+            </button>
+          </div>
+          <div
+            class="btn btn-warning opacity-50 text-carousel d-flex justify-content-center mt-5 pt-3 text-warning fw-bolder"
+          >
+            <h3 class="text-white opacity-100">Museum Ubud</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Carausel Flicky  -->
+
+    <!-- Start Section Map -->
+    <div id="map" class="container">
+      <p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63136.552290843065!2d115.23101973115065!3d-8.496024695464003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd23d739f22c9c3%3A0x54a38afd6b773d1c!2sUbud%2C%20Gianyar%20Regency%2C%20Bali!5e0!3m2!1sen!2sid!4v1653839756947!5m2!1sen!2sid"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </p>
+    </div>
+    <!-- End Section Map -->
+
+    <!-- Start footer -->
+    <section id="footer-section" class="mt-5 pt-5 w-100">
+      <img class="w-100 img-fluid" src="src/assets/images/footer.png" alt="" />
+    </section>
+    <!-- End  footer -->
+
+    <!-- JS Bundle Bootstrap -->
+    <script src="./src/assets/js/bootstrap.bundle.js"></script>
+
+    <!-- Jquery -->
+    <script src="plugin/jquery-3.6.0.min.js"></script>
+
+    <!-- Flicker -->
+    <script src="plugin/flickity.pkgd.min.js"></script>
+
+    <!-- Own JS -->
+    <script src="src/assets/custom/custom.js"></script>
+
+    <!-- AOS Animated JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+
+    <!-- Maps -->
+  </body>
+</html>

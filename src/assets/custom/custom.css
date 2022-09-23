@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: #1ac258f6 !important;
+}
+
+.navbar-collapse ul li a {
+  color: #ffffff;
+}
+
+#hero-section {
+  background-color: #1d713c;
+}
+
+.bali-text {
+  color: #e76c16;
+}
+
+.bunga-1 {
+  left: -40px;
+}
+
+.bunga-2 {
+  right: -40px;
+  overflow-x: hidden;
+}
+
+.mitra-judul {
+  color: #1d713c;
+}
+
+.tentang-title {
+  color: #1d713c;
+}
+
+.tentang-cards p {
+  color: #1d713c;
+  font-size: 12px;
+  font-weight: 500 !important;
+  user-select: none;
+}
+
+.card:hover {
+  background-color: #d4ffd3 !important;
+}
+
+/* external css: flickity.css */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.carousel-cell {
+  width: 28%;
+  height: 200px;
+  margin-right: 10px;
+
+  /* background-image: ; */
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+/* .carousel-cell.is-selected {
+  background: #ed2;
+} */
+
+/* cell number */
+/* .carousel-cell:before {
+  display: block;
+  text-align: center; */
+/* content: counter(carousel-cell); */
+/* line-height: 200px;
+  font-size: 80px;
+  color: white;
+} */
+
+.carousel-cell.is-selected:nth-child(1) {
+  background-image: url('../images/carausel/ubud-monkey.png') !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.carousel-cell:nth-child(2) {
+  background-image: url('../images/carausel/campuhan.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel-cell:nth-child(3) {
+  background-image: url('../images/carausel/saraswati.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel-cell:nth-child(4) {
+  background-image: url('../images/carausel/swinging.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel-cell:nth-child(5) {
+  background-image: url('../images/carausel/aksari-resort.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel-cell:nth-child(6) {
+  background-image: url('../images/carausel/traditional-market.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel-cell:nth-child(7) {
+  background-image: url('../images/carausel/museum.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.btn-carousel {
+  background: rgba(255, 255, 255, 0.692);
+  filter: blur(0.8px);
+  /* Note: backdrop-filter has minimal browser support */
+}
+
+.span-carousel {
+  z-index: 2;
+  color: red;
+}
